@@ -1,7 +1,11 @@
+import Gallery from "./components/gallery";
+
 export default function Home() {
   return (
     <main>
-      Hello world
+      <div className="flex items-center justify-center">
+        <Gallery />
+      </div>
     </main>
-  )
+  );
 }
